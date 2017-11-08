@@ -1,0 +1,6 @@
+data/
+*.jpg
+*.png
+*.vscode
+__pycache__
+node
