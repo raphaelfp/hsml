@@ -24,12 +24,13 @@ def get_attributes(filename):
         response = requests.request(
             'POST', URI_BASE + '/face/v1.0/detect', data=data, headers=HEADERS, params=PARAMS)
 
-        print('Response:')
+        #print('Response:')
         parsed = json.loads(response.text)
-        print(json.dumps(parsed, sort_keys=True, indent=2))
+        #print(json.dumps(parsed, sort_keys=True, indent=2))
         return parsed[0]
 
     except Exception as ex:
         print('Error:')
         print(ex)
+        return ""
     file.close()
