@@ -2,8 +2,8 @@
 import json
 import requests
 
-SUBSCRIPTION_KEY = '8c8a3081ded0455e81a3c0f3a471a57c'
-URI_BASE = 'https://westcentralus.api.cognitive.microsoft.com'
+SUBSCRIPTION_KEY = '58af56a3ae604019a01ebe3dbd5a330e'
+URI_BASE = 'https://southcentralus.api.cognitive.microsoft.com'
 
 HEADERS = {
     'Content-Type': 'application/octet-stream',
